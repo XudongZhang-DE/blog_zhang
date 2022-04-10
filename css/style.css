@@ -79,7 +79,7 @@ body, input, button, textarea, select {
 	overflow: hidden;
 	height: 124px;
 	line-height: 300px;
-	background: #3399CC url(../images/logo.png) no-repeat 50% 50%;
+	background: #3399CC url(../images/logo.jpg) no-repeat 50% 50%;
 }
 .header .logo a {
 	-moz-transition: all 0.8s ease-in-out;
@@ -113,7 +113,7 @@ body, input, button, textarea, select {
 	color: #FFFFFF;
 	font-size: 26px;
 	font-weight: 100;
-	background: #3399CC url(../images/logo.png) no-repeat 50% 50%;
+	background: #3399CC url(../images/logo.jpg) no-repeat 50% 50%;
 }
 .header-xs-logo .navbar-toggle {
 	padding: 0px;
@@ -308,9 +308,9 @@ body, input, button, textarea, select {
 	height: 100%;
 }
 .hot-content li.large {
-	width: 100%;
+	width: 60%;
 	float: left;
-	margin-left: -100%;
+	margin-left: -90%;
 }
 .hot-content li.large a {
 	height: 266px;
@@ -1135,6 +1135,63 @@ textarea::-webkit-scrollbar-thumb {
 	background: url(../images/backtop.png) no-repeat 0 0;
 	opacity: 0.5;
 }
+
 .gotop:hover {
 	background: url(../images/backtop.png) no-repeat 0 -52px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.text-end {
+    margin-left: 140px;
+    width: 100%;
+    padding: 10px;
+}
+
+.text-end btn {
+	float: right;
+}
+
+
+  .row > .column {
+	padding: 0 8px;
+  }
+   
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+   
+  .column {
+	float: left;
+	width: 25%;
+  }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }
